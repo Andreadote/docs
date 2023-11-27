@@ -1,14 +1,8 @@
 # Chocolatey Docs
 
-This repository contains the source files for the documentation site that can be found here:
-
-https://docs.chocolatey.org/en-us/
 
 This site is built using [Statiq](https://statiq.dev/).
 
-## Thanks
-
-The original template that was used to create this docs site came from the work that was done by [Patrik Svensson](https://github.com/patriksvensson), on his [Spectre.Console](https://spectresystems.github.io/spectre.console/) and [Spectre.Cli](https://spectresystems.github.io/spectre.cli/) docs sites. Huge thank you to Patrik for all his help!
 
 ## Building the site
 
@@ -47,17 +41,5 @@ To add a new Highlight, follow the steps below:
     1. Remove the `IsActive: false` line completely. This is set to `true` by default, and will now be shown on the Highlights page.
     1. To make the Highlight appear on the Home page, remove the `ShowOnHome: false` line completely. This is set to `true` by default, and will now be shown on the Home page.
 
-## Build Status
 
-[![GitHub Actions Build Status](https://github.com/chocolatey/docs/workflows/Publish%20Documentation/badge.svg)](https://github.com/chocolatey/docs/actions?query=workflow%3A%22Build+Pull+Request%22)
-
-## Chat Room
-Come join in the conversation about Chocolatey in our [Community Chat Room](https://ch0.co/community).
-
-Please make sure you've read over and agree with the [etiquette regarding communication](https://github.com/chocolatey/choco/blob/master/README.md#etiquette-regarding-communication).
-
-## Search
-
-Search uses [Algolia DocSearch](https://docsearch.algolia.com/) as backend.
-Configuration for crawler is available at https://github.com/algolia/docsearch-configs/blob/master/configs/chocolatey.json.# docs
 # docs
